@@ -1,0 +1,36 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Store Zustand user > Test can add a picture in mutiple picture array 1`] = `
+[
+  {
+    "id": 2,
+    "url": "https://google.com",
+    "userId": 2,
+  },
+]
+`;
+
+exports[`Store Zustand user > Test can add a picture in the picture array 1`] = `
+[
+  {
+    "id": 1,
+    "url": "https://google.com",
+    "userId": 1,
+  },
+]
+`;
+
+exports[`Store Zustand user > Test can add multiple element in the picture array 1`] = `
+[
+  {
+    "id": 1,
+    "url": "https://google.com",
+    "userId": 1,
+  },
+  {
+    "id": 2,
+    "url": "https://google.com",
+    "userId": 2,
+  },
+]
+`;

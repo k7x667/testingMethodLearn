@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test can add an observer 1`] = `
+[
+  ObserverImplementation {
+    "name": "test",
+  },
+]
+`;
+
+exports[`Test can add multiple observer 1`] = `
+[
+  ObserverImplementation {
+    "name": "test",
+  },
+  ObserverImplementation {
+    "name": "Test 2",
+  },
+]
+`;
+
+exports[`Test can delete an observer when multiple 1`] = `
+[
+  ObserverImplementation {
+    "name": "Test 2",
+  },
+]
+`;
